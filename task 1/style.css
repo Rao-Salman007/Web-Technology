@@ -1,0 +1,37 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #686e79;
+}
+
+nav {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ff4b2b;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: #ff4b2b;
+}

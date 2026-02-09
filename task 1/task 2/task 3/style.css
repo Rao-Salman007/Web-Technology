@@ -1,0 +1,75 @@
+/* Page Background */
+.login-body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Box */
+.login-box {
+    background: white;
+    padding: 40px;
+    width: 320px;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.2);
+}
+
+/* Headings */
+.login-box h2,
+.login-box h1 {
+    margin-bottom: 25px;
+    color: #333;
+}
+.login-box input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+.login-box button {
+    width: 100%;
+    padding: 12px;
+    background: #667eea;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.login-box button:hover {
+    background: #764ba2;
+}
+.link-text {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.link-text a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.link-text a:hover {
+    text-decoration: underline;
+}
+.logout-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: #ff4b2b;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+}
+.logout-btn:hover {
+    background: #222;
+}
